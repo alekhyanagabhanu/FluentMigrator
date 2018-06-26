@@ -1,0 +1,11 @@
+USE [CarsDb]
+CREATE table [dbo].[Cars]
+(
+
+[Id] INT NOT NULL IDENTITY,
+
+[Model] NVARCHAR(MAX) NOT NULL,
+
+PRIMARY KEY	CLUSTERED ([ID] ASC)
+
+);	
